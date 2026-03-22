@@ -1,4 +1,4 @@
-# GPU-Project-Predicting-the-Performance-of-a-kernel
+# GPU Project Predicting the Performance of a kernel
 
 ## Setups
 
