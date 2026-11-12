@@ -290,8 +290,8 @@ int main(int argc, char* argv[]) {
 		if (errors != 0) {
 			printf("✗ Found %d errors (%.2f%% incorrect)\n", errors, 100.0 * errors / total_elements);
 			printf("  %d elements are zero (%.2f%% - possibly not computed)\n", zero_count, 100.0 * zero_count / total_elements);
-		free(c_ref);
 		}
+		free(c_ref);
 	}
 	else if (strcmp(op, "reduction") == 0) {
 		int gpu_min = c[0];
